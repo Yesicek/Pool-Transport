@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins-regular;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@font-face { font-family: poppins-medium; 
+    src: url('../font/Poppins-Medium.ttf');
+} 
+@font-face { font-family: poppins-regular; 
+        src: url('../font/Poppins-Regular.ttf')
+}
+.db{
+    background-color: #224687;
+}
+.lb{
+    background-color: #2abfd4;
+}
+.text-bold{
+    font-weight: bold;
+}
+#intro{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/intro.jpg);
+    background-size: 100% 100%;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    position: relative;
+}
+#panel{
+    width: 100%;
+    height: 50px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    background-color: rgba(101, 117, 133, 0.5);
+}
+.logo{
+    width: 140px;
+    height: 50px;
+    background-image: url(../img/logo.png);
+    background-size: 140px 50px;
+    float: left;
+    margin-left: 10px;
+}
+.panel-link{
+    width: 130px;
+    height: 40px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    padding: 4px;
+}
+.panel-link:hover{
+    background-color: white;
+}
+.test1{
+    color: white;
+}
+.test2{
+    color: white;
+}
+.test3{
+    color: white;
+}
+.test4{
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.main-title{
+    position: absolute;
+    top: 430px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.second-title{
+    width: 250px;
+    height: 45px;
+    position: absolute;
+    bottom: 50px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgba(101, 117, 133, 0.5);
+}
+.second-title:hover{
+    background-color: white;
+}
+#content{
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    background-color: white;
+}
+.content-info{
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-left: 120px;
+    color: white;
+    padding: 15px;
+}
+.content-logo1{
+    width: 55px;
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    background-image: url(../img/content-icon1.png);
+    background-size: 55px 55px;
+}
+.content-logo2{
+    width: 55px;
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    background-image: url(../img/content-icon2.png);
+    background-size: 55px 55px;
+}
+.content-logo3{
+    width: 55px;
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    background-image: url(../img/content-icon3.png);
+    background-size: 55px 55px;
+}
+.content-text{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.divider-line{
+    max-width:100%;
+    width:43%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    border-top: 2px solid rgba(255, 255, 255, 0.8);
+}
+#history{
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+.history-picture{
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-image: url(../img/history-picture.jpg);
+    background-size: 100% 400px;
+}
+.history-text{
+    width: 50%;
+    height: 400px;
+    float: right;
+    background-color: #2abfd4;
+}
+.history-title{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.history-text-div{
+    width: 500px;
+    height: 150px;
+    float: left;
+    margin-left: 70px;
+}
+.history-text-info{
+    font-size: 18px;
+    text-align: left;
+    padding: 25px;
+}
+#panel-bottom{
+    width: 100%;
+    height: 40px;
+    background-color: #224687;
+}
+.panel-bottom-link{
+    width: 130px;
+    height: 30px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+.panel-bottom-link:hover{
+    background-color: white;
+}
+@media (max-width: 767px) {
+    .history-text-info p {
+       font-size: 22px;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 1023px) {
+    .history-text-info p {
+       font-size: 24px;
+    }
+ }
+ @media (min-width: 1024px) {
+    .history-text-info p {
+       font-size: 28px;
+    }
+ }
